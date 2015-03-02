@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,5 +14,15 @@ namespace LogicUniversityStationeryStore
         {
 
         }
+
+        protected void btnLogin_Click(object sender, EventArgs e)
+        {
+            LoginController login = new LoginController();
+            login.login();
+        }
+
+   
+
+     
     }
 }

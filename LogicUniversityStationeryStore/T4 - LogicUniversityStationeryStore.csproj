@@ -194,7 +194,6 @@
     <Content Include="images\logo.png" />
     <Content Include="images\msdropdown\skin1\dd_arrow.gif" />
     <Content Include="images\msdropdown\skin1\title-bg.gif" />
-    <Content Include="LogInUI.aspx" />
     <Content Include="icons\Thumbs.db" />
     <EntityDeploy Include="model45.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
@@ -474,13 +473,6 @@
     </Compile>
     <Compile Include="Inventory.cs">
       <DependentUpon>model45.tt</DependentUpon>
-    </Compile>
-    <Compile Include="LogInUI.aspx.cs">
-      <DependentUpon>LogInUI.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="LogInUI.aspx.designer.cs">
-      <DependentUpon>LogInUI.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
