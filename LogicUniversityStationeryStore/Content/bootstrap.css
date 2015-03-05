@@ -162,9 +162,11 @@ button,
 input,
 select,
 textarea {
-  margin: 0;
   font-family: inherit;
   font-size: 100%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 button,
@@ -353,6 +355,7 @@ a:focus {
 
 img {
   vertical-align: middle;
+    text-align: left;
 }
 
 .img-responsive {
@@ -1407,6 +1410,8 @@ pre code {
 table {
   max-width: 100%;
   background-color: transparent;
+    text-align: center;
+    font-size: medium;
 }
 
 th {

@@ -15,7 +15,7 @@ namespace LogicUniversityStationeryStore
      
         protected void Page_Load(object sender, EventArgs e)
         {
-            var query= from x in EntityBroker.getMyEntites().Suppliers 
+            var query= from x in EntityBroker.getMyEntities().Suppliers 
                        select x;
             lblValue.Text = query.First<Supplier>().supplierName;
         }

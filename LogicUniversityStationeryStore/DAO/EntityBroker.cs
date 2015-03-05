@@ -10,7 +10,7 @@ namespace LogicUniversityStationeryStore.DAO
 
 
         private static LogicUniversityEntities ctx = new LogicUniversityEntities();
-        public static LogicUniversityEntities getMyEntites()
+        public static LogicUniversityEntities getMyEntities()
         {
             return ctx;
         }

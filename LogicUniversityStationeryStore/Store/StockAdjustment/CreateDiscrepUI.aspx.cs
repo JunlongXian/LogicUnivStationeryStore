@@ -13,11 +13,6 @@ namespace LogicUniversityStationeryStore.Dep
         protected void Page_Load(object sender, EventArgs e)
         {
 
-
-            string AdjustmentID = Request.Params["id"];
-            int AdjustmentId = Convert.ToInt32(AdjustmentID);
-            var q = from x in EntityBroker.getMyEntites().StockAdjustmentDetails
-            
         }
     }
 }

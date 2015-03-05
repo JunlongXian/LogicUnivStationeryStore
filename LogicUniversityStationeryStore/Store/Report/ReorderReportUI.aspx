@@ -12,8 +12,6 @@
     <form id="form1" runat="server">
     <div>
     
-        <CR:CrystalReportViewer ID="ReorderReport" runat="server" AutoDataBind="true" />
-    
     </div>
     </form>
 </body>

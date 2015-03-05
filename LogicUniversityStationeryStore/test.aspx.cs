@@ -16,7 +16,7 @@ namespace LogicUniversityStationeryStore
         {
 
 
-            var q = from x in EntityBroker.getMyEntites().Departments
+            var q = from x in EntityBroker.getMyEntities().Departments
                     select x;
 
             lblT.Text = q.First<Department>().deptRep;
